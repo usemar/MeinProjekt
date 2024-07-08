@@ -19,16 +19,16 @@
 
 <h4>Konfigurieren von Git
 - Terminalbefehl: git config user.name "meinname"
--     ""        : git config user.email "meineemail"
+- Terminalbefehl: git config user.email "meineemail"
 
 <h4>Initialen Commit hinzufügen
 - Terminalbefehl: git  add main.py
--     ""        : git commit -m "Haupdatei aktualisiert"
+- Terminalbefehl: git commit -m "Haupdatei aktualisiert"
 <h4>Feature Branch hinzufügen und Datei im Unterverzeichnis "util"  hinzufügen
 
 - Terminalbefehl: git checkout -b feature
--     ""        : git add utils/database.py
--     ""        : git commit -m "Neue Funktion hinzugefügt"
+- Terminalbefehl: git add utils/database.py
+- Terminalbefehl: git commit -m "Neue Funktion hinzugefügt"
 - Wechsel zurück in den Branch master
 - Terminalbefehl: git checkout master
 - Bearbeite die Datei "main.py" und führe einen Commit auf dem "master"-Branch durch:
